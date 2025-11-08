@@ -28,14 +28,14 @@ It's designed to be **minimal, responsive, and fast**, built entirely with HTML,
 
 ## 📁 Folder Structure
 
-Personal-Website/
-│
-├── index.html # Home page
-├── about.html # About section
-├── projects.html # Portfolio/projects page
-├── contact.html # Contact form or links
-├── assets/ # Images, icons, etc.
-├── css/ # Stylesheets
+Personal-Website/  
+│  
+├── index.html # Home page  
+├── about.html # About section  
+├── projects.html # Portfolio/projects page  
+├── contact.html # Contact form or links  
+├── assets/ # Images, icons, etc.  
+├── css/ # Stylesheets  
 └── js/ # JavaScript files
 
 ---
