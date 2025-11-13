@@ -35,13 +35,13 @@ Personal-Website/
 ├── style.css # Stylesheet
 ├── script.js # JavaScript file
 ├── images/ # Images used in the website
-│ └── my-photo.jpeg
+│   └── my-photo.jpeg
 └── favicon_io/ # Favicon files
-├── favicon.ico
-├── favicon-16x16.png
-├── favicon-32x32.png
-├── apple-touch-icon.png
-└── site.webmanifest
+    ├── favicon.ico
+    ├── favicon-16x16.png
+    ├── favicon-32x32.png
+    ├── apple-touch-icon.png
+    └── site.webmanifest
 ```
 
 ---
