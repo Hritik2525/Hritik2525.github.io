@@ -1,0 +1,162 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #f9fafb;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+/* Header */
+.header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav a {
+    color: #333;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: #0077ff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 3rem;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.hero-img img {
+    width: 220px;
+    border-radius: 50%;
+}
+
+.btn {
+    background: #0077ff;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #005fcc;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #0077ff;
+    padding-left: 10px;
+}
+
+/* Cards and Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: all 0.2s ease-in;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Education */
+.course-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 1rem;
+}
+
+/* Contact */
+.contact p {
+    margin: 0.6rem 0;
+}
+
+.contact a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    border-top: 1px solid #ddd;
+    color: #555;
+}

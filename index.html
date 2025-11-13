@@ -1,134 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hritik Mandoliya - Junior Software Engineer</title>
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Personal Website of Hritik Mandoliya, a Junior Software Engineer.">
-    <meta name="keywords" content="Software Developer, C, C++, Python, HTML, CSS, JavaScript, Resume, CV, Web Development">
-    <meta name="author" content="Hritik Mandoliya">
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Hritik Mandoliya - Junior Software Engineer CV">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://hritik2525.github.io">
-    <meta property="og:image" content="https://hritik2525.github.io/images/my-photo.jpg">
-    <meta property="og:description" content="Explore the Personal Website of Hritik Mandoliya, a skilled Junior Software Engineer with experience in C, C++, Python, and more.">
-    <meta property="og:site_name" content="Hritik Mandoliya's Personal Website">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <style>
-        .top-left{
-            position: absolute;
-            top: 0;
-            left: 0;
-            padding: 20px;
-        }
-        .top-right{
-            position: absolute;
-            top: 0;
-            right: 0;
-            padding: 20px;
-        }
-        #title{
-            text-align: center;
-            padding: 50px;
-        }
-    </style>
-</head>
-<body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hritik Mandoliya - Portfolio</title>
 
+    <!-- SEO -->
+    <meta name="description" content="Portfolio of Hritik Mandoliya, a Junior Software Engineer skilled in C, C++, Python, Web Development, and AI." />
+    <meta name="keywords" content="Hritik Mandoliya, Portfolio, Software Engineer, Web Developer, GitHub Projects, Resume" />
+    <meta name="author" content="Hritik Mandoliya" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
     <!-- Header -->
-    <header>
-        <div class="top-left">Hritik Mandoliya</div>
-        <nav class="top-right">
-            <a href="index.html">Home</a> |
-            <a href="projects.html">Projects</a> |
-            <a href="articles.html">Articles</a> |
-            <a href="contact.html">Contact</a>
+    <header class="header">
+        <div class="container header-content">
+        <h1 class="logo">Hritik Mandoliya</h1>
+        <nav class="nav">
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
         </nav>
+        </div>
     </header>
 
-    <main>
-        <!-- Title -->
-        <section  id="title">
-            <h1>Software Engineer</h1>
-        </section>
+    <!-- Hero Section -->
+    <section class="hero container">
+        <div class="hero-text">
+        <h2>Junior Software Engineer</h2>
+        <p>Building reliable software solutions using C, C++, Python, and Web Technologies.</p>
+        <a href="https://github.com/Hritik2525" class="btn">View GitHub</a>
+        </div>
+        <div class="hero-img">
+        <img src="images/my-photo.jpeg" alt="Hritik Mandoliya Photo" />
+        </div>
+    </section>
 
-        <!-- Main Sections -->
-        <section>
-            <table width="100%" border="1">
-                <tr>
-                    <!-- Projects -->
-                    <td width="33%" style="padding:10px;">
-                        <h3>Projects</h3>
-                        <ul>
-                            <li>Single Page Personal CV</li>
-                            <li>Traffic Sign Recognition Model</li>
-                            <li>Notes App</li>
-                            <li>Collage Chatbot</li>
-                        </ul>
-                    </td>
-                    
-                    <!-- Work Experience -->
-                    <td width="33%" style="padding:10px;">
-                        <h3>Work Experience</h3>
-                        <p><strong>roadmap.sh</strong><br>
-                        Solved all the frontend projects<br>
-                        <a href="#">Visit my Profile</a></p>
+    <!-- Projects -->
+    <section id="projects" class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="grid">
+        <div class="card">
+            <h3>Single Page Personal CV</h3>
+            <p>Minimal, responsive personal CV website made using HTML and CSS.</p>
+        </div>
+        <div class="card">
+            <h3>Traffic Sign Recognition</h3>
+            <p>AI model using CNN for classifying traffic signs with 95% accuracy.</p>
+        </div>
+        <div class="card">
+            <h3>Notes App</h3>
+            <p>Android app for adding, editing, and pinning notes efficiently.</p>
+        </div>
+        <div class="card">
+            <h3>College Chatbot</h3>
+            <p>Chatbot that answers common academic queries for students.</p>
+        </div>
+        </div>
+    </section>
 
-                        <p><strong>OpenSource Work</strong><br>
-                        Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.<br>
-                        <a href="https://github.com/Hritik2525">Visit my GitHub Profile</a></p>
-                    </td>
+    <!-- Experience -->
+    <section id="experience" class="container">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="grid">
+        <div class="card">
+            <h3>roadmap.sh</h3>
+            <p>Completed all frontend projects as per roadmap.sh challenges.</p>
+            <a href="#">View Profile</a>
+        </div>
+        <div class="card">
+            <h3>Open Source Contributor</h3>
+            <p>Contributed to 50+ open source projects and earned 200+ stars on GitHub.</p>
+            <a href="https://github.com/Hritik2525">GitHub Profile</a>
+        </div>
+        </div>
+    </section>
 
-                    <!-- Education -->
-                    <td width="33%" style="padding:10px;">
-                        <h3>Education</h3>
-                        <p>Currently pursuing my B.Tech degree in Computer Science with the CGPA of 8.02 out of 10.</p>
-                        <p><strong>Courses I took:</strong></p>
-                        <ul>
-                            <li>Dev Ops</li>
-                            <li>Cryptography</li>
-                            <li>Cloud Computing</li>
-                            <li>Human Computer Interaction</li>
-                            <li>Computer Networks</li>
-                            <li>Discrete Mathematics</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
-        </section>
+    <!-- Education -->
+    <section id="education" class="container">
+        <h2 class="section-title">Education</h2>
+        <p><strong>B.Tech in Computer Science</strong> (CGPA: 8.02 / 10)</p>
+        <ul class="course-list">
+        <li>DevOps</li>
+        <li>Cryptography</li>
+        <li>Cloud Computing</li>
+        <li>Human Computer Interaction</li>
+        <li>Computer Networks</li>
+        <li>Discrete Mathematics</li>
+        </ul>
+    </section>
 
-        <!-- Reviews Section -->
-        <section>
-            <h3>Reviews from my Teachers</h3>
-            
-            <table width="100%" border="1">
-                <tr>
-                    <td width="33%" style="padding:10px;">
-                        <p>John doe was a brilliant student; always stood out with his assignments.</p>
-                        <strong>Jane Doe</strong><br>
-                        Assistant Professor
-                    </td>
-                    <td width="33%" style="padding:10px;">
-                        <p>John doe was a brilliant student; always stood out with his assignments.</p>
-                        <strong>Jane Doe</strong><br>
-                        Assistant Professor
-                    </td>
-                    <td width="33%" style="padding:10px;">
-                        <p>John doe was a brilliant student; always stood out with his assignments.</p>
-                        <strong>Jane Doe</strong><br>
-                        Assistant Professor
-                    </td>
-                </tr>
-            </table>
-        </section>
-    </main>
+    <!-- Reviews -->
+    <section id="reviews" class="container">
+        <h2 class="section-title">Reviews from Teachers</h2>
+        <div class="grid">
+        <div class="card">
+            <p>Hritik was an outstanding student who consistently excelled in his coursework.</p>
+            <strong>Jane Doe</strong><br />Assistant Professor
+        </div>
+        <div class="card">
+            <p>He demonstrated great curiosity and creativity in his projects.</p>
+            <strong>John Smith</strong><br />Professor
+        </div>
+        <div class="card">
+            <p>Always eager to learn and improve, with a solid grasp of fundamentals.</p>
+            <strong>Mary Lee</strong><br />Assistant Professor
+        </div>
+        </div>
+    </section>
 
-    <footer style="text-align: center;">
-        <p>© all rights reserved 2025</p>
+    <!-- Contact -->
+    <section id="contact" class="container contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <p>Email: <a href="mailto:hritikmandoliya@gmail.com">hritikmandoliya@gmail.com</a></p>
+        <p>Linked In: <a href="www.linkedin.com/in/hritik-mandoliya-918303251">Linked In Profile</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Hritik Mandoliya — All rights reserved.</p>
     </footer>
-
 </body>
 </html>
