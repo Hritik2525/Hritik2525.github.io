@@ -31,12 +31,10 @@ It's designed to be **minimal, responsive, and fast**, built entirely with HTML,
 Personal-Website/  
 │  
 ├── index.html # Home page  
-├── about.html # About section  
-├── projects.html # Portfolio/projects page  
-├── contact.html # Contact form or links  
-├── assets/ # Images, icons, etc.  
-├── css/ # Stylesheets  
-└── js/ # JavaScript files
+├── style.css/ # Stylesheets  
+├── script.js/ # JavaScript files  
+├── images (folder)/ # Contains images used  
+└── favicon_io/ # Contains favicon used
 
 ---
 
