@@ -30,11 +30,17 @@ It's designed to be **minimal, responsive, and fast**, built entirely with HTML,
 
 Personal-Website/  
 │  
-├── index.html # Home page  
-├── style.css/ # Stylesheets  
-├── script.js/ # JavaScript files  
-├── images (folder)/ # Contains images used  
-└── favicon_io/ # Contains favicon used
+├── index.html  
+├── style.css  
+├── script.js  
+├── images/  
+│   └── my-photo.jpeg  
+└── favicon_io/  
+    ├── favicon.ico  
+    ├── favicon-16x16.png  
+    ├── favicon-32x32.png  
+    ├── apple-touch-icon.png  
+    └── site.webmanifest
 
 ---
 
